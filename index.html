@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MatchaBoy - Nikmati minuman matcha favoritmu dengan rasa premium dan harga bersahabat.">
+    <title>MatchaBoy | Fresh Matcha, Happy Mood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">抹</span> Matcha<span>Boy</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+        <button class="cart-button" id="cartButton" aria-label="Buka keranjang">
+            🛒 Keranjang <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi">☰</button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">🍵 FRESHLY MADE, MADE WITH LOVE</span>
+                <h1>Temukan Bahagia<br>dalam Setiap <span>Seruput.</span></h1>
+                <p>
+                    Dari matcha yang lembut hingga perpaduan rasa
+                    favoritmu. Temani harimu dengan segelas kebahagiaan
+                    dari MatchaBoy.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="btn btn-primary">Jelajahi Menu <span>→</span></a>
+                    <a href="#about" class="btn btn-outline">Cerita Kami</a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-icon">✓</span>
+                    Dibuat segar setiap hari dengan bahan pilihan
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-circle"></div>
+                <div class="hero-tag tag-top">100% GOOD MOOD ✨</div>
+                <img
+                    class="hero-image"
+                    src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85"
+                    alt="Segelas minuman matcha segar"
+                >
+                <div class="hero-tag tag-bottom">
+                    <span>🍃</span>
+                    <div><strong>Matcha Moments</strong><small>Made for you</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFITS -->
+        <section class="benefits">
+            <div class="benefit-item">
+                <span>🍃</span>
+                <div><strong>Bahan Pilihan</strong><small>Kualitas rasa terbaik</small></div>
+            </div>
+            <div class="benefit-item">
+                <span>🥤</span>
+                <div><strong>Dibuat Fresh</strong><small>Diracik saat dipesan</small></div>
+            </div>
+            <div class="benefit-item">
+                <span>💚</span>
+                <div><strong>Harga Bersahabat</strong><small>Enak tanpa bikin boros</small></div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu-section section" id="menu">
+            <div class="section-heading">
+                <span class="eyebrow">OUR FAVORITES</span>
+                <h2>Menu yang Bikin <span>Jatuh Hati</span></h2>
+                <p>Pilih teman terbaik untuk menemani harimu.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua Menu</button>
+                <button class="filter-btn" data-filter="matcha">Matcha</button>
+                <button class="filter-btn" data-filter="fruit">Fruit Series</button>
+                <button class="filter-btn" data-filter="choco">Creamy Series</button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Produk dibuat otomatis oleh JavaScript -->
+            </div>
+        </section>
+
+        <!-- PROMO BANNER -->
+        <section class="promo section">
+            <div class="promo-content">
+                <span class="eyebrow">A LITTLE TREAT FOR YOU</span>
+                <h2>Hari yang sibuk?<br>Waktunya <span>Matcha Break!</span></h2>
+                <p>Ambil jeda sejenak dan nikmati minuman favoritmu.</p>
+                <a href="#menu" class="btn btn-light">Pilih Minuman →</a>
+            </div>
+            <div class="promo-decoration">抹茶</div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about-section section" id="about">
+            <div class="about-visual">
+                <img
+                    src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=850&q=85"
+                    alt="Matcha yang disiapkan dengan penuh perhatian"
+                    loading="lazy"
+                >
+                <div class="about-sticker">Made with<br>💚 & care</div>
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">A LITTLE STORY ABOUT US</span>
+                <h2>Bukan Sekadar Minuman, Tapi <span>Suasana Hati.</span></h2>
+                <p>
+                    MatchaBoy hadir untuk menemani cerita kecil dalam
+                    keseharianmu. Kami percaya minuman yang enak bisa
+                    membuat hari terasa lebih menyenangkan.
+                </p>
+                <p>
+                    Setiap menu diracik dengan perhatian pada rasa,
+                    kualitas, dan pengalaman yang ingin kami bagikan
+                    kepada setiap pelanggan.
+                </p>
+                <a href="#menu" class="text-link">Temukan favoritmu <span>→</span></a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact-section section" id="contact">
+            <div class="section-heading">
+                <span class="eyebrow">LET'S CONNECT</span>
+                <h2>Yuk, Jadi Bagian dari <span>MatchaBoy!</span></h2>
+                <p>Ada pertanyaan atau ingin pesan? Kami siap menyambutmu.</p>
+                <a class="btn btn-primary contact-wa" href="#" id="contactWhatsApp">
+                    Chat WhatsApp ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div>
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">抹</span> Matcha<span>Boy</span>
+                </a>
+                <p>Fresh matcha, happy mood.<br>Teman kecil untuk hari yang lebih baik.</p>
+            </div>
+
+            <div class="footer-links">
+                <strong>Jelajahi</strong>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu Kami</a>
+                <a href="#about">Tentang Kami</a>
+            </div>
+
+            <div class="footer-links">
+                <strong>Hubungi Kami</strong>
+                <a href="#" id="footerWhatsApp">WhatsApp</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="mailto:hello@matchaboy.example">Email</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> MatchaBoy. Made with 💚</p>
+            <a href="#home">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+
+    <!-- CART DRAWER -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Keranjang belanja" aria-hidden="true">
+        <div class="cart-header">
+            <div>
+                <span class="eyebrow">YOUR ORDER</span>
+                <h2>Keranjangmu 🛒</h2>
+            </div>
+            <button class="close-cart" id="closeCart" aria-label="Tutup keranjang">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Keranjangmu masih kosong 🍵</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total Pesanan</span>
+                <strong id="cartTotal">Rp0</strong>
+            </div>
+            <button class="btn btn-primary checkout-btn" id="checkoutButton">
+                Pesan via WhatsApp ↗
+            </button>
+            <small>Pesanan akan dikirim ke WhatsApp untuk konfirmasi.</small>
+        </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
