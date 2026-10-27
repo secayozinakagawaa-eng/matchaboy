@@ -289,12 +289,13 @@ img {
     background: #dce7cd;
 }
 
+
 .hero-image {
-    width: min(390px, 95%);
+    width: min(390px, 90%);
     height: 390px;
     object-fit: cover;
-    object-position: center 45%;
-    border-radius: 50%;
+    object-position: center center;
+    border-radius: 24px;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
@@ -303,7 +304,7 @@ img {
 }
 
 .hero-image:hover {
-    transform: scale(1.03);
+    transform: translateY(-5px);
 }
 .hero-tag {
     position: absolute;
