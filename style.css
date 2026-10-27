@@ -292,16 +292,15 @@ img {
 .hero-image {
     width: min(360px, 85%);
     height: 480px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
-    border-radius: 40px;
+    border-radius: 180px 180px 40px 40px;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
-    transform: rotate(0deg);
+    transform: none;
     transition: transform 0.5s ease;
 }
-
 
 .hero-image:hover {
     transform: rotate(0deg) translateY(-5px);
