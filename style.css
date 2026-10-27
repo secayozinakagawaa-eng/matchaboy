@@ -295,8 +295,8 @@ img {
     max-width: 100%;
     height: 460px;
     object-fit: cover;
-    object-position: center;
-    border-radius: 180px 180px 30px 30px;
+    object-position: center 45%;
+    border-radius: 180px 180px 35px 35px;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
