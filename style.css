@@ -279,8 +279,8 @@ img {
     display: grid;
     place-items: center;
     animation: fadeIn 1s ease both;
+    overflow: hidden;
 }
-
 .hero-circle {
     position: absolute;
     width: min(390px, 90%);
