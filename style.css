@@ -80,12 +80,15 @@ img {
     color: var(--green-dark);
     white-space: nowrap;
 }
+
 .logo-img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 0;
+    flex-shrink: 0;
 }
+
 .logo > span:last-child {
     color: #91a86c;
     margin-left: -7px;
