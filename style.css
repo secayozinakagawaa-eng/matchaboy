@@ -289,23 +289,21 @@ img {
     background: #dce7cd;
 }
 
-
 .hero-image {
-    width: min(360px, 85%);
-    height: 480px;
+    width: min(390px, 95%);
+    height: 390px;
     object-fit: cover;
     object-position: center 45%;
-    clip-path: ellipse(50% 50% at 50% 50%);
-    transform: scale(1.08);
+    border-radius: 50%;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
+    transform: none;
     transition: transform 0.5s ease;
 }
 
-/* Efek saat kursor diarahkan ke foto */
 .hero-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .hero-tag {
     position: absolute;
