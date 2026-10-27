@@ -6,7 +6,7 @@
   Gunakan kode negara 62, tanpa tanda +, spasi, atau angka 0 di depan.
   Contoh: 6281234567890
 */
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6285176786385";
 
 const products = [
     {
