@@ -288,16 +288,16 @@ img {
     border-radius: 50%;
     background: #dce7cd;
 }
-
 .hero-image {
     width: min(330px, 77%);
     height: 390px;
     object-fit: cover;
+    object-position: center;
     border-radius: 180px 180px 30px 30px;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
-    transform: rotate(2deg);
+    transform: rotate(0deg);
     transition: transform 0.5s ease;
 }
 
