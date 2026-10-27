@@ -16,7 +16,7 @@ const products = [
         label: "Best Seller",
         description: "Matcha lembut berpadu dengan susu creamy.",
         price: 18000,
-        image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=700&q=80"
+        image: "./matcha-latte.jpg.jpg",
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const products = [
         label: "Favorite",
         description: "Manisnya strawberry bertemu matcha khas kami.",
         price: 22000,
-        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=700&q=80"
+        image: "./strawberry-matcha.jpg.jpg",
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const products = [
         label: "Rich & Creamy",
         description: "Perpaduan cokelat dan matcha yang kaya rasa.",
         price: 22000,
-        image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80"
+        image: "./chocolate-matcha.jpg.jpg",
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const products = [
         label: "Creamy",
         description: "Matcha nikmat dengan tekstur creamy yang lembut.",
         price: 20000,
-        image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=700&q=80"
+        image: "./matcha-cream.jpg.jpg",
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const products = [
         label: "Sweet Mood",
         description: "Susu taro dengan rasa manis dan aroma khas.",
         price: 18000,
-        image: "https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=700&q=80"
+        image: "./taro-milk.jpg.jpg",
     },
     {
         id: 6,
@@ -61,7 +61,7 @@ const products = [
         label: "Classic",
         description: "Susu vanilla lembut untuk teman santaimu.",
         price: 16000,
-        image: "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=700&q=80"
+        image: "./vanilla-matcha.jpg.jpg",
     }
 ];
 
