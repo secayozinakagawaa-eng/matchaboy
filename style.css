@@ -290,22 +290,23 @@ img {
 }
 
 .hero-image {
-    width: min(360px, 85%);
-    height: 480px;
+    display: block;
+    width: min(360px, 80%);
+    height: 460px;
     object-fit: cover;
     object-position: center;
-    border-radius: 180px 180px 40px 40px;
+    border-radius: 180px 180px 30px 30px;
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow);
-    transform: none;
+    transform: rotate(0deg);
     transition: transform 0.5s ease;
+    margin: 0 auto;
 }
 
 .hero-image:hover {
-    transform: rotate(0deg) translateY(-5px);
+    transform: translateY(-5px);
 }
-
 .hero-tag {
     position: absolute;
     z-index: 2;
