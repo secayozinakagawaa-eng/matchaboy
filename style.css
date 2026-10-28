@@ -281,13 +281,11 @@ img {
     animation: fadeIn 1s ease both;
     overflow: hidden;
 }
+
 .hero-circle {
-    position: absolute;
-    width: min(390px, 90%);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: #dce7cd;
+    display: none;
 }
+
 
 
 .hero-image {
