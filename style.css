@@ -1239,3 +1239,46 @@ img {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* FIX FINAL TENTANG KAMI */
+.about-section {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    align-items: center !important;
+    gap: 45px !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 70px 6% !important;
+    box-sizing: border-box !important;
+}
+
+.about-visual {
+    width: 100% !important;
+    height: 420px !important;
+    overflow: hidden !important;
+    border-radius: 20px !important;
+}
+
+.about-visual > img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+.about-content {
+    width: 100% !important;
+    max-width: 500px !important;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        grid-template-columns: 1fr !important;
+        gap: 25px !important;
+    }
+
+    .about-visual {
+        height: 300px !important;
+    }
+}
