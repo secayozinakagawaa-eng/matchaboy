@@ -1335,3 +1335,28 @@ img {
         line-height: 1.8 !important;
     }
 }
+/* FIX FINAL TAMPILAN TENTANG KAMI */
+@media (max-width: 1024px) {
+    .about-section {
+        padding: 25px 20px 45px !important;
+        box-sizing: border-box !important;
+    }
+
+    .about-section .about-visual img {
+        object-position: center 25% !important;
+    }
+
+    .about-section .about-content {
+        padding: 0 5px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .about-section .about-content h2,
+    .about-section .about-content p,
+    .about-section .about-content .eyebrow,
+    .about-section .about-content .text-link {
+        margin-left: 0 !important;
+    }
+}
