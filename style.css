@@ -598,15 +598,19 @@ img {
 /* ABOUT */
 
 
+
 .about-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 60px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 7%;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center !important;
+    gap: 45px !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 70px 6% !important;
+    box-sizing: border-box !important;
 }
+
 
 .about-visual {
     position: relative;
