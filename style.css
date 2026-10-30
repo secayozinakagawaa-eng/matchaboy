@@ -1286,3 +1286,52 @@ img {
         height: 300px !important;
     }
 }
+
+/* PERBAIKAN FINAL BAGIAN TENTANG KAMI */
+
+/* Tampilan laptop dan desktop */
+@media (min-width: 769px) {
+    .about-section {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+        align-items: center !important;
+        gap: 45px !important;
+        width: 100% !important;
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+        padding: 70px 6% !important;
+        box-sizing: border-box !important;
+    }
+
+    .about-section .about-visual {
+        width: 100% !important;
+        height: 430px !important;
+        min-width: 0 !important;
+    }
+
+    .about-section .about-visual img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+
+    .about-section .about-content {
+        display: block !important;
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .about-section .about-content h2 {
+        font-size: clamp(25px, 3vw, 38px) !important;
+        line-height: 1.25 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .about-section .about-content p {
+        font-size: 14px !important;
+        line-height: 1.8 !important;
+    }
+}
