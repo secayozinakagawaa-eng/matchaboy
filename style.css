@@ -597,23 +597,33 @@ img {
 
 /* ABOUT */
 
+
 .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 75px;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 7%;
 }
 
 .about-visual {
     position: relative;
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 22px;
 }
 
 .about-visual > img {
     width: 100%;
-    height: 420px;
+    height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    object-position: center;
+    display: block;
 }
+
 
 .about-sticker {
     position: absolute;
